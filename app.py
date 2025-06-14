@@ -10,7 +10,7 @@ def helloagain():
     return "<h1>Hello endpoint!</h1>"
 
 @app.route('/bye')
-def helloagain():
+def bye():
     return "<h1>Bye!</h1>"
 
 if __name__ == '__main__':
