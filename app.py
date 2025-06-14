@@ -13,6 +13,10 @@ def helloagain():
 def bye():
     return "<h1>Bye!</h1>"
 
+@app.route('/byeagain')
+def byeagain():
+    return "<h1>Bye again!</h1>"
+
 if __name__ == '__main__':
     app.run(port=5000)
 
